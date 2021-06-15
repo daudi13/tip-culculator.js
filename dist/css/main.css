@@ -1,7 +1,92 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
-*,
-*::before,
-*::after {
+.container {
+  max-width: 600px;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border-radius: 4px;
+}
+
+.container h3 {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.container form .input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container form .input-container label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.container form .input-container input {
+  padding: 0.5rem 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.container form .input-container ::-webkit-input-placeholder {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.container form .input-container :-ms-input-placeholder {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.container form .input-container ::-ms-input-placeholder {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.container form .input-container ::placeholder {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.container form .input-container input:focus {
+  outline: none;
+}
+
+.container form .input-container + .input-container {
+  margin-top: 20px;
+}
+
+.container form .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container form .total p {
+  font-weight: 700;
+}
+
+* {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -20,6 +105,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: 'Poppins', sans-serif;
-  background: #775c92;
+  background-color: #775c92;
 }
 /*# sourceMappingURL=main.css.map */
