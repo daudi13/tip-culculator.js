@@ -13,19 +13,22 @@
         <form>
             <div class="input-container">
                 <label for="Bill">Bill(in $)</label>
-                <input type="text" class="input" placeholder="Enter Bill">
+                <input type="number" class="input" id="bill" placeholder="Enter Bill">
             </div>
 
             <div class="input-container">
                 <label for="Tip">Tip %</label>
-                <input type="text" class="input" placeholder="Tip">
+                <input type="number" id="tip">
             </div>
 
             <div class="total">
                 <p>Total:</p>
                 <span id="result">[100]</span>
             </div>
+
+            <button id="btn">submit</button>
         </form>
     </div>
+    <script src="/app.js"></script>
 </body>
 </html>
