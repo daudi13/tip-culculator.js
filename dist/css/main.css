@@ -94,6 +94,13 @@
   border: none;
   color: #fff;
   margin-top: 15px;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.container #btn:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 * {
