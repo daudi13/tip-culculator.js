@@ -13,7 +13,7 @@ btn.addEventListener('click', () => {
 function calcTip(bill, tip) {
     const newTotal = document.getElementById('result').textContent = `[${(bill * tip / 100)}]`;
 
-    console.log(result.textContent = newTotal)
+    return result.innerText = newTotal
 }
 
 
